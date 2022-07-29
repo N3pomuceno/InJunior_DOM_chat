@@ -1,5 +1,5 @@
 
-var btn1 = document.getElementById("#button1");
+let btn1 = document.querySelector("#button1");
 btn1.addEventListener("click", function (){
     let texto = document.querySelector("#quadradoDeTexto");
     let mensagem = document.createElement("div");
@@ -14,6 +14,6 @@ btn1.addEventListener("click", function (){
     excluir.classList.add("excluir");
     container.appendChild(editar);
     container.appendChild(excluir);
-    editar.innerHTML = "Excluir";
-    excluir.innerHTML = "Editar";
+    editar.innerHTML = "Editar";
+    excluir.innerHTML = "Excluir";
 })
