@@ -1,0 +1,44 @@
+section {
+    width: 50%;
+    max-width: 600px;
+    min-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: white;
+    border: 2px solid;
+    border-radius: 3px;
+}
+
+h2{
+    margin:0;
+    padding-top: 20px;
+    padding-bottom:20px;
+    background-color: rgba(196, 196, 196);
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid;
+
+}
+
+.container{
+    min-height: 400px;
+}
+
+.textbox{
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgba(196, 196, 196);
+}
+
+textarea{
+    min-width: 300px;
+    min-height: 150px;
+}
+
+
+button{
+    background-color: rgb(131, 181, 43);
+    color:rgb(0, 0, 0);
+}
